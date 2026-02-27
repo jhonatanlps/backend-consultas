@@ -15,6 +15,7 @@ public class EspecialidadeController {
         this.service = service;
     }
 
+    @PostMapping
     public Especialidade criar(@RequestBody Especialidade especialidade){
         return service.salvar(especialidade);
     }
