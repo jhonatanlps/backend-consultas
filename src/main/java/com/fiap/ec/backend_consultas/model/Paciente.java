@@ -17,6 +17,9 @@ public class Paciente {
     private LocalDate dataNascimento;
     private Boolean ativo;
 
+    public Paciente() {
+    }
+
     public Paciente(String nome, String cpf, String email, String telefone, LocalDate dataNascimento, Boolean ativo) {
         this.nome = nome;
         this.cpf = cpf;
