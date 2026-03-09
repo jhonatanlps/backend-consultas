@@ -19,4 +19,9 @@ public class EspecialidadeService {
     public List<Especialidade> listar(){
         return repository.findAll();
     }
+
+    public Especialidade buscarPorId(Long id) {
+        return repository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Especialidade não encontrada"));
+    }
 }
