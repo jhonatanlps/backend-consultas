@@ -1,9 +1,7 @@
 package com.fiap.ec.backend_consultas.controller;
-
 import com.fiap.ec.backend_consultas.model.Medico;
 import com.fiap.ec.backend_consultas.service.MedicoService;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
