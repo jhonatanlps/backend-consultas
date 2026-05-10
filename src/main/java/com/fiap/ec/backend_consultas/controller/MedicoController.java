@@ -6,6 +6,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/medicos")
+@CrossOrigin
 public class MedicoController {
     private final MedicoService service;
 

@@ -1,9 +1,11 @@
 package com.fiap.ec.backend_consultas.service;
 import com.fiap.ec.backend_consultas.model.Medico;
 import com.fiap.ec.backend_consultas.repository.MedicoRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class MedicoService {
     private final MedicoRepository repository;
 
